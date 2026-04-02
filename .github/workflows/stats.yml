@@ -1,0 +1,29 @@
+name: GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 하루 1번
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate GitHub Stats
+        uses: lowlighter/metrics@latest
+        with:
+          user: devyoungk
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Seoul
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Update stats"
+          git push
