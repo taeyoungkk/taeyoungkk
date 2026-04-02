@@ -16,6 +16,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           user: devyoungk
+          token: ${{ secrets.METRICS_TOKEN }}
           template: classic
           base: header, activity, community, repositories
           config_timezone: Asia/Seoul
