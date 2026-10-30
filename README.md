@@ -2,7 +2,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:2f80ed,100:70a5fd&height=220&section=header&text=TAEYOUNG's%20GitHub&fontSize=48&fontColor=c9d1d9&animation=fadeIn&fontAlignY=38)
 
 <div align="center">
-
+  
 ### Backend Developer
 
 **Java · Spring Boot**
@@ -52,58 +52,3 @@
 ![Docker](https://img.shields.io/badge/Docker-1F2937?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-1F2937?style=flat-square&logo=git&logoColor=white)
 
----
-
-## 🚀 Featured Projects
-
-### 🛡️ [SSAFER](https://github.com/taeyoungkk/ssafer)
-
-배포 전 인프라 보안 설정을 점검하고 사용자 승인에 따라 수정 작업을 연결하는 보안 점검 플랫폼
-
-**Tech** `Java` `Spring Boot` `PostgreSQL` `WebSocket`
-
-**Focus**
-- Local Agent 연동 및 작업 전달
-- 작업 상태 관리 및 실패 원인 추적
-- 실시간 작업 상태 알림
-
----
-
-### 🤖 [CESCAR](https://github.com/taeyoungkk/cescar)
-
-로봇의 탐지 이벤트와 상태를 실시간으로 전달하는 실내 로봇 관제 시스템
-
-**Tech** `Java` `Spring Boot` `PostgreSQL` `MQTT` `WebSocket`
-
-**Focus**
-- MQTT 기반 로봇 탐지 이벤트 수신
-- WebSocket 및 FCM 실시간 알림
-- 반복 탐지 이벤트 중복 제어
-
----
-
-### 📈 [InvesTube](https://github.com/taeyoungkk/investube)
-
-외부 금융 데이터와 투자 콘텐츠를 한곳에서 탐색할 수 있는 투자 정보 통합 서비스
-
-**Tech** `Java` `Spring Boot` `MyBatis` `MySQL`
-
-**Focus**
-- 외부 금융 API 데이터 수집
-- 배치 동기화 및 진행 상태 관리
-- 중복 저장 방지 및 실패 처리
-
----
-
-### 🌿 [YEO-UN](https://github.com/taeyoungkk/yeoun)
-
-사진·위치·여행 기록을 연결하는 모바일 여행 기록 플랫폼
-
-**Tech** `Java` `Spring Boot` `PostgreSQL` `Redis` `Kafka`
-
-**Focus**
-- 사용자별 사진 동기화 기능
-- JWT 기반 인증 및 Redis 인증코드 관리
-- 비동기 후처리 결과 연동
-
----
